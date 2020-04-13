@@ -4,6 +4,7 @@
 /* main.css */
 /* ****************** */
 /* CSS Basic definitions (all screen-formats) */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:100,300,700");
 body {
 	background-color:#eee;color:#222;font: normal 16px/20px;
 	font-family:"Open Sans Condensed";
