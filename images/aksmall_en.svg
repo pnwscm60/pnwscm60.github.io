@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 274.1 192.1" style="enable-background:new 0 0 274.1 192.1;" xml:space="preserve">
+<style type="text/css">
+	@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700");
+	.st0{fill:#00A99D;}
+	.st1{fill:#E6E6E6;}
+	.st3{fill:none;stroke:#AAAAAA;stroke-width:0.5;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#808081;stroke-miterlimit:10;}
+	.st5{fill:#1D1D1B;}
+	.st6{font-family:'Open Sans Condensed'; font-weight:300;}
+	.st7{font-size:14px;}
+	.st7a{font-size:11px;}
+	.st8{fill:#666666;}
+	.st9{fill:#FFFFFF;}
+	.st10{fill:#666666;stroke:#0071BC;stroke-width:2;stroke-miterlimit:10;}
+	.st11{fill:#666666;stroke:#009245;stroke-width:2;stroke-miterlimit:10;}
+	.st12{fill:#EDEDED;stroke:#009245;stroke-width:2;stroke-miterlimit:10;}
+	.st13{fill:#EDEDED;stroke:#0071BC;stroke-width:2;stroke-miterlimit:10;}
+	.st13a{fill:none;stroke:#ED1C24;stroke-width:1.2;stroke-miterlimit:10;}
+	.st14{fill:#ED1C24;}
+	.st15{font-family:'Open Sans Condensed'; font-weight:700;}
+	.st16{fill:none;stroke:#1D1D1B;stroke-miterlimit:10;}
+	.st17{fill:none;stroke:#1D1D1B;stroke-width:0.7683;stroke-miterlimit:10;}
+	.st18{fill:none;stroke:#1D1D1B;stroke-width:0.8045;stroke-miterlimit:10;}
+	.st19{fill:#009245;}
+	.st20{font-size:6px;}
+	.st21{fill:#0071BC;}
+	.st22{fill:#FCEE21;}
+	.st23{fill:none;stroke:#FFFFFF;stroke-width:0.2491;stroke-miterlimit:10;}
+	.st24{fill:#F9B233;}
+	.st25{fill:#ededed;}
+</style>
+
+<g id="grafik" class="">
+<g id="test" class="st2">
+<circle class="st0" cx="109.1" cy="96.4" r="7.2"/>
+<path class="st22" d="M105.7,95.3l0.4,0.3l0.1-0.1c0.3,0.2,5.9,3.9,5.9,3.9c0.6,0.4,1.5,0.3,1.9-0.4c0.4-0.6,0.3-1.5-0.4-1.9
+	c0,0-3-2-3-2h-4.8L105.7,95.3z"/>
+<path class="st23" d="M107.4,92.7l-1.7,2.6l0.4,0.3l0.1-0.1c0.3,0.2,5.9,3.9,5.9,3.9c0.6,0.4,1.5,0.3,1.9-0.4
+	c0.4-0.6,0.3-1.5-0.4-1.9c0,0-5.6-3.7-5.9-3.9l0.1-0.1L107.4,92.7z"/>
+	<path class="st22" d="M106.8,97.8c0-0.7-1.3-2.3-1.3-2.3s-1.3,1.6-1.3,2.3s0.6,1.3,1.3,1.3S106.8,98.6,106.8,97.8z"/>
+</g>
+
+<g id="pop" class="st2">
+<path class="st4" d="M122.4,28.3H95.1c-2.1,0-3.7-1.7-3.7-3.7v-12c0-2.1,1.7-3.7,3.7-3.7h27.4c2.1,0,3.7,1.7,3.7,3.7v12
+	C126.2,26.6,124.5,28.3,122.4,28.3z"/>
+<text transform="matrix(1 0 0 1 94.3841 23.644)" class="st5 st6 st7">10000</text>
+</g>
+<g id="coneg" class="st2">
+<line class="st16" x1="143.5" y1="44.5" x2="113.4" y2="31.4"/>
+<text transform="matrix(1 0 0 1 158.4895 44.3855)" class="st6 st20">Covid–</text>
+<path class="r3 st1 " d="M178.7,67.1h-32.4c-2.1,0-3.7-1.7-3.7-3.7v-12c0-2.1,1.7-3.7,3.7-3.7h32.4c2.1,0,3.7,1.7,3.7,3.7v12
+	C182.5,65.4,180.8,67.1,178.7,67.1z"/>
+<text transform="matrix(1 0 0 1 151.5222 62.4404)" class="st6 st7">9900</text>
+</g>
+<g id="copos" class="st2">
+<line class="st16" x1="75.6" y1="44.5" x2="105.8" y2="31.4"/>
+<text transform="matrix(1 0 0 1 51.5854 44.3855)" class="st6 st20">Covid+</text>
+<path class="st8" d="M74.3,67.1H41.9c-2.1,0-3.7-1.7-3.7-3.7v-12c0-2.1,1.7-3.7,3.7-3.7h32.4c2.1,0,3.7,1.7,3.7,3.7v12
+	C78,65.4,76.3,67.1,74.3,67.1z"/>
+<text transform="matrix(1 0 0 1 49.191 62.4404)" class="st9 st6 st7">100</text>
+</g>
+<g id="fneg" class="st2" transform="translate(+3,0)">
+<line class="st16" x1="76.7" y1="83.3" x2="59.6" y2="70.2"/>
+<text transform="matrix(1 0 0 1 68.5761 111.7805)" class="st21 st6 st20">negative</text>
+<path class="st10" d="M90.5,105.9H63.1c-2.1,0-3.7-1.7-3.7-3.7v-12c0-2.1,1.7-3.7,3.7-3.7h27.4c2.1,0,3.7,1.7,3.7,3.7v12
+	C94.2,104.2,92.6,105.9,90.5,105.9z"/>
+<text transform="matrix(1 0 0 1 73.6337 101.2369)" class="st9 st6 st7">5</text>
+</g>
+<g id="rpos" class="st2" transform="translate(-3,0)">
+<line class="st16" x1="37.9" y1="83.3" x2="55" y2="70.2"/>
+<text transform="matrix(1 0 0 1 31.0673 111.7805)" class="st19 st6 st20">positive</text>
+<path class="st11" d="M51.3,105.9H23.9c-2.1,0-3.7-1.7-3.7-3.7v-12c0-2.1,1.7-3.7,3.7-3.7h27.4c2.1,0,3.7,1.7,3.7,3.7v12
+	C55,104.2,53.3,105.9,51.3,105.9z"/>
+<text transform="matrix(1 0 0 1 31.5945 101.2369)" class="st9 st6 st7">95</text>
+</g>
+<g id="fpos" class="st2" transform="translate(-3,0)">
+<line class="st16" x1="144.1" y1="83.3" x2="161.3" y2="70.2"/>
+<text transform="matrix(1 0 0 1 136.1978 111.7805)" class="st19 st6 st20">positive</text>
+<path class="st12" d="M155.4,105.9H128c-2.1,0-3.7-1.7-3.7-3.7v-12c0-2.1,1.7-3.7,3.7-3.7h27.4c2.1,0,3.7,1.7,3.7,3.7v12
+	C159.1,104.2,157.5,105.9,155.4,105.9z"/>
+<text transform="matrix(1 0 0 1 132.9438 101.2369)" class="st6 st7">495</text>
+</g>
+<g id="rneg" class="st2">
+<line class="st16" x1="183" y1="83.3" x2="165.8" y2="70.2"/>
+<text transform="matrix(1 0 0 1 176.5887 111.7805)" class="st21 st6 st20">negative</text>
+<path class="st13" d="M196.2,105.9h-27.4c-2.1,0-3.7-1.7-3.7-3.7v-12c0-2.1,1.7-3.7,3.7-3.7h27.4c2.1,0,3.7,1.7,3.7,3.7v12
+	C199.9,104.2,198.2,105.9,196.2,105.9z"/>
+<text transform="matrix(1 0 0 1 170.9047 101.2369)" class="st6 st7">9405</text>
+</g>
+<g id="eiszufuef" class="st2">
+<text transform="matrix(1 0 0 1 76.9098 130.9534)" class="st14 st15 st7">1 : 5</text>
+<polyline class="st17" points="37.5,115.8 37.5,127.4 71.1,127.4 "/>
+<polyline class="st18" points="142.2,115.8 142.2,127.4 105.9,127.4 "/>
+</g>
+
+
+<!-- Texte -->
+<text transform="matrix(1 0 0 1 207.9986 59.9041)" class="proz st6 st20 st2">1 % of the population</text>
+<text transform="matrix(1 0 0 1 213.3511 94.8138)" class="sen st6 st20 st2">sensitivity 95 %</text>
+<text transform="matrix(1 0 0 1 214.9511 102.138)" class="spe st6 st20 st2">specifity 95 %</text>
+</g>
+
+<text transform="matrix(1 0 0 1 135 153.9298)" text-anchor="middle" class="te13 st6 st7a st2">Only 1 in 6 people who tested positive is Covid+</text>
+<text transform="matrix(1 0 0 1 135 168.3298)" text-anchor="middle" class="te14 st6 st7a st2">Given a positive test, probability of Covid+ is only 16%</text>
+<text transform="matrix(1 0 0 1 135 182.7298)" text-anchor="middle" class="te15 st6 st7a st2">Therefore: "Immunity card" after antibody test useless at the moment</text>
+
+
+
+<!-- ANIMATION -->
+<style type="text/css">
+
+</style>
+</svg>
