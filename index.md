@@ -15,6 +15,6 @@
   <p>You can find on this page some additional resources to Covid-19 pandemia, as i.e. graphs, animated graphs and links to other sites, mainly on epi-topics.</p>
 <div id="cont1" style="float:left;width:33%">
     <div style="float:left; margin-right:0.5em;"><img src="images/aks_en.png" width="160"></div>
-    <div style="float:left;"><a href="images/aks_de.png" target="_blank">static de (png)</a><br/><a href="images/aks_en.png" target="_blank">static en (png)</a><br/><a href="images/aksanim_en.svg" target="_blank">animated de (svg)</a><br/><a href="images/aksanim_de.svg" target="_blank">animated en (svg)</a></div>
+    <div style="float:left;"><a href="images/aks_de.png" target="_blank">static de (png)</a><br/><a href="images/aks_en.png" target="_blank">static en (png)</a><br/><a href="images/aksanim_de.svg" target="_blank">animated de (svg)</a><br/><a href="images/aksanim_en.svg" target="_blank">animated en (svg)</a></div>
     <div style="font-size:0.85em;clear:both">Probability of positive antibody tests vor sars-cov-2: Animated and static versions in English and German</div>
   </div>
