@@ -14,5 +14,3 @@
 <body>
   <h1>Covid-19 – additional resources</h1>
   <p>You can find on this page some additional resources to Covid-19 pandemia, as i.e. graphs, animated graphs and links to other sites, mainly on epi-topics.
-</body>
-</html>
