@@ -16,5 +16,5 @@
 <div id="cont1" style="float:left;width:30%">
   <div style="float:left; margin-right:1em;"><img src="images/aks_en.png" width="180"></div>
   <div style="float:left;"><div style="float:none;"><a href="#" target="_blank">static german version</a></div><div><a href="#" target="_blank">static english version</a></div><div><a href="#" target="_blank">animated german version</a><div><a href="#" target="_blank">animated english version</a></div></div>
-    <div style="font-size:0.85em;clear:both">Animated and static versions in english and german about bayesian thinking about antibody tests for sars-cov-2.</div>
+    <div style="font-size:0.85em;clear:both">Probability of positive antibody tests vor sars-cov-2: Animated and static versions in english and german</div>
   </div>
