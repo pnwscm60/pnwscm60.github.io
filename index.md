@@ -7,8 +7,9 @@
   <meta name="description" content="Resources">
   <meta name="author" content="Markus Schenker, Phi Network">
  <style type="text/css">
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700");
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:100,300,700");
   </style>
+ <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
