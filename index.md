@@ -13,6 +13,7 @@
 <body>
   <h2>Covid-19 – additional resources</h2>
   <p>You can find on this page some additional resources to Covid-19 pandemia, as i.e. graphs, animated graphs and links to other sites, mainly on epi-topics.</p>
+  <h3>Graphs and Animations</h3>
 <div id="cont1" style="float:left;width:33%;background-color:#fefefe;padding:10px;border-radius:6px;">
     <div style="float:left; margin-right:0.5em;"><a href="images/aks_en.png" style="border:none;"><img src="images/aks_en.png" width="160"></a></div>
     <div style="float:left;"><a href="images/aks_de.png" target="_blank">static de (png)</a><br/><a href="images/aks_en.png" target="_blank">static en (png)</a><br/><a href="images/aksanim_de.svg" target="_blank">animated de (svg)</a><br/><a href="images/aksanim_en.svg" target="_blank">animated en (svg)</a></div>
