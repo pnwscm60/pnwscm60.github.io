@@ -17,7 +17,7 @@
     	<div style="font-size:0.85em;clear:both">Bayesian thinking in antibody tests for sars-cov-2: Animated and static versions in English and German</div>
 	</div>
 <div id="cont2" class="graph">
-    	<div><a href="images/covidsim_small.png" class="imglink"><img src="images/covidsim_small.png" width="140"></a></div>
+    	<div><a href="images/covid19outbreak_en.svg" class="imglink"><img src="images/covidsim_small.png" width="140"></a></div>
 	<div style="float:left"><a href="images/covid19outbreak_de.svg" target="_blank">animated de (svg)</a><br/><a href="images/covid19outbreak_en.svg" target="_blank">animated en (svg)</a></div>
     	<div style="font-size:0.85em;clear:both">Animation (number of cases, deaths and ICU need of Covid-19 outbreak without mitigation </div>
 	</div>
