@@ -121,7 +121,7 @@ var viewbox="0 0 350 280"
 //-----------------------------DATA------------------------------//
 // parse the date / time
 var parseTime = d3.timeParse("%d.%m.%y");
-d3.dsv(";","files/download/covid_cumch.csv").then(function(data) {
+d3.dsv(";","data/covid_cumch.csv").then(function(data) {
 
   // format the data
   data.forEach(function(d) {
