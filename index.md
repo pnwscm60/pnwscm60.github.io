@@ -11,8 +11,8 @@
 <body>
   <p>We publish on this site additional resources to Covid-19 pandemia, as i.e. graphs, animated graphs and links to other sites, mainly on epi-topics. A service by <a href="https://www.ebpswiss.ch">ebpswiss.ch</a>.</p>
   <h2>Graphs and Animations</h2>
-	<div id="cont1" style="float:left;width:33%;background-color:#fefefe;padding:10px;border-radius:6px;box-shadow:1px 1px 3px #666; margin-bottom:1em;">
-    	<div class="graph"><a href="images/aks_en.png" style="border:none;"><img src="images/aks_en.png" width="140"></a></div>
+	<div id="cont1" class="graph">
+    	<div><a href="images/aks_en.png" style="border:none;"><img src="images/aks_en.png" width="140"></a></div>
 	<div style="float:left"><a href="images/aks_de.png" target="_blank">static de (png)</a><br/><a href="images/aks_en.png" target="_blank">static en (png)</a><br/><a href="images/aksanim_de.svg" target="_blank">animated de (svg)</a><br/><a href="images/aksanim_en.svg" target="_blank">animated en (svg)</a></div>
     	<div style="font-size:0.85em;clear:both">Bayesian thinking in antibody tests for sars-cov-2: Animated and static versions in English and German</div>
 	</div>
