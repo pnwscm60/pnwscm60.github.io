@@ -99,7 +99,7 @@ div.tooltip, div.tooltip2 {
 }
     div.tooltip {
         width: 40px;                  
-        height: 15px;  
+        height: 25px;  
     }
     div.tooltip2 {
         padding: 3px;
