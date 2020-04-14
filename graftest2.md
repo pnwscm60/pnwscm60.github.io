@@ -115,7 +115,7 @@ div.tooltip, div.tooltip2 {
   "data": [
     {
       "name": "source_0",
-      "url": "data/weather.csv",
+      "url": "https://vega.github.io/vega-lite/examples/data/weather.csv",
       "format": {"type": "csv", "parse": {"date": "date"}, "delimiter": ","},
       "transform": [
         {"type": "filter", "expr": "datum.location == \"Seattle\""},
