@@ -13,6 +13,9 @@
         margin-right: 5px;
       }
     </style>
+  <style type="css">
+    @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700");
+  </style>
   </head>
   <body>
     <h2>Test for online graphs</h2>
