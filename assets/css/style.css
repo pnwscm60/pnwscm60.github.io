@@ -10,7 +10,7 @@ em {
 	color:rgb(29,112,183); font-family:"Open Sans Condensed";font-weight:700;font-style:normal;padding-right:0.5em;
 	}
 a {
-	color:rgb(29,112,183);text-decoration:none; border-bottom:rgb(29,112,183) thin dotted;font-weight:700;
+	color:rgb(29,112,183);text-decoration:none; font-weight:700;
 	}
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Open Sans Condensed",sans-serif;
@@ -35,3 +35,6 @@ h4 {
 .nodisplay {
 	display: none
 	}
+.graph {
+	
+}
