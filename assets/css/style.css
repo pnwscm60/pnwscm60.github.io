@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-style: normal;
 	font-weight: 700;
 	color:rgb(29,112,183);
+	clear:both;
 	}
 h1 {
 	font-size: 12px;line-height: 16px;margin-bottom:0.8em;margin-top:16px;border-bottom:1px #fff solid;padding-bottom:3px;
