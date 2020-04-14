@@ -2,7 +2,7 @@
   <head>
     <title>Vega-Lite Bar Chart</title>
     <meta charset="utf-8" />
-
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega@5.10.1"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.10.4"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.5.2"></script>
