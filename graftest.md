@@ -13,14 +13,13 @@
         margin-right: 5px;
       }
     </style>
-  <style type="css">
-    @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700");
-  </style>
   </head>
   <body>
     <h2>Test for online graphs</h2>
     <!-- Container for the visualization -->
  <style>
+ /* FONTS */
+    @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700");
     /* AXES */
 /* ticks */
 .axis line{
@@ -246,7 +245,7 @@ svg.append("text")
         .attr("y", 6)
         .style("text-anchor", "end")
         .attr("class", "xtext")
-        .text("Wachstumsrate");        
+        .text("Growth rate");        
     
 //--------------------LINES-----------------//    
   // Add the valueline path.
@@ -385,7 +384,7 @@ svg.append("text")
 .style("font-size", "20px")
 .style("font-family", "Open Sans Condensed")
 .style("font-weight", "300")
-.text("Wachstumsrate bestÃ¤tigte FÃ¤lle");
+.text("Growth rate confirmed cases");
     });
     </script> 
   </body>
