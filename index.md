@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <p>We publish on this site additional resources to Covid-19 pandemia, as i.e. graphs, animated graphs and links to other sites, mainly on epi-topics. A service by <a href="https://www.episwiss.ch">episwiss.ch</a>.</p>
+  <p>We publish on this site additional resources to Covid-19 pandemia, as i.e. graphs, animated graphs and links to other sites, mainly on epi-topics. A service by <a href="https://www.ebpswiss.ch">ebpswiss.ch</a>.</p>
   <h3>Graphs and Animations</h3>
 	<div id="cont1" style="float:left;width:33%;background-color:#fefefe;padding:10px;border-radius:6px;box-shadow:1px 1px 3px #666; margin-bottom:1em;">
     	<div style="float:left; float:left;padding:6px;border:1px solid #fff;box-shadow:1px 1px 2px #666;margin:0 1.7em 0.7em 0;"><a href="images/aks_en.png" style="border:none;"><img src="images/aks_en.png" width="140"></a></div>
