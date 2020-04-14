@@ -23,5 +23,5 @@
 	</div>
   <h2>Links</h2>
   <div><a href="https://ispmbern.github.io/covid-19/swiss-epidemic-model/" target="_blank">Real-time modeling and projections of the COVID-19 epidemic in Switzerland (ISPM Unibe)</a></div>
-    <div><a href="https://www.corona-data.ch/" target="_blank">Corona-data.ch information for Switzerland</a></div>
+    <div><a href="https://www.corona-data.ch/" target="_blank">Corona-data.ch information about Covid-19 epidemic in Switzerland</a></div>
 	<div><a href="https://www.update-covid.ch/en/" target="_blank">Collection of most relevant studies and guidelines in connection with Covid-19 (University Hospital Bern)</a></div>
