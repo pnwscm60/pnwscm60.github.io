@@ -3,6 +3,7 @@ body {
 	background-color:#eee;color:#222;font: normal 16px/20px;
 	font-family:"Open Sans Condensed";
 	font-weight:100;
+	max-width:1024px;
 	}
 em {
 	color:rgb(29,112,183); font-family:"Open Sans Condensed";font-weight:700;font-style:normal;padding-right:0.5em;
