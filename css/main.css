@@ -23,8 +23,9 @@ h1, h2, h3, h4, h5, h6 {
 	color:rgb(29,112,183);
 	}
 h1 {
-	display:none;font-size: 24px;line-height: 28px;margin-bottom:0.8em;margin-top:16px;border-bottom:1px rgb(29,112,183) solid;padding-bottom:3px;
+	font-size: 10px;line-height: 16px;margin-bottom:0.8em;margin-top:16px;border-bottom:1px #fff solid;padding-bottom:3px;
 	}
+h1 a {border:none;}
 h2 {
 	font-size: 19px;line-height:20px;margin-top:2px;
 	}
