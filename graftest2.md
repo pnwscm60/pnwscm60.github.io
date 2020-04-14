@@ -109,7 +109,7 @@ div.tooltip, div.tooltip2 {
       // Assign the specification to a local variable vlSpec.
       var vlSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": {"url": "data/cars.json"},
+  "data": {"url": "https://vega.github.io/vega-lite/examples/data/cars.json"},
   "encoding": {
     "x": {
       "field": "Year",
