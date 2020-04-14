@@ -103,6 +103,7 @@ div.tooltip, div.tooltip2 {
     <!-- Container for the visualization -->
  
 <div id="vis"></div>
+<script> 
  var vlSpec =
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
@@ -404,3 +405,4 @@ div.tooltip, div.tooltip2 {
   ]
 }
 vegaEmbed('#vis', vlSpec);
+</script>
