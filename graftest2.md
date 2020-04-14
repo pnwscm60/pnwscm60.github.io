@@ -102,8 +102,8 @@ div.tooltip, div.tooltip2 {
     <h2>Test for online graphs</h2>
     <!-- Container for the visualization -->
  
-<div id="container1" class="svg-container" style="position:relative;float:left;margin-bottom:1em;"></div>
-
+<div id="vis"></div>
+ var vlSpec =
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "A dual axis chart, created by setting y's scale resolution to `\"independent\"`",
@@ -403,3 +403,4 @@ div.tooltip, div.tooltip2 {
     }
   ]
 }
+vegaEmbed('#vis', vlSpec);
