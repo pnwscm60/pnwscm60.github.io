@@ -36,5 +36,12 @@ h4 {
 	display: none
 	}
 .graph {
-	
+	width:33%;
+	min-width:300px;
+	style="float:left;
+	float:left;
+	padding:6px;
+	border:1px solid #fff;
+	box-shadow:1px 1px 2px #666;
+	margin:0 1.7em 0.7em 0;"
 }
