@@ -37,11 +37,12 @@ h4 {
 	}
 .graph {
 	width:33%;
+	background-color:#fff;
 	min-width:300px;
 	float:left;
-	float:left;
-	padding:6px;
+	padding:8px;
 	border:1px solid #fff;
+	border-radius:5px;
 	box-shadow:1px 1px 2px #666;
 	margin:0 1.7em 0.7em 0;
 }
