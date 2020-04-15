@@ -105,6 +105,7 @@ div.tooltip, div.tooltip2 {
 <div id="vis"></div>
 <div id="vis2"></div>
 <div id="vis3"></div>
+<div id="vis4"></div>
 <script>
       // Assign the specification to a local variable vlSpec.
       var vlSpec = {
@@ -230,4 +231,56 @@ vegaEmbed('#vis', vlSpec);
 
 // Embed the visualization in the container with id `vis`
 vegaEmbed('#vis3', vlSpec);
+</script>
+
+<script>
+      // Assign the specification to a local variable vlSpec.
+      var vlSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {"url": "data/stocks.csv"},
+  "width": 400,
+  "height": 300,
+  "encoding": {"x": {"field": "date", "type": "temporal"}},
+  "layer": [
+    {
+      "encoding": {
+        "color": {"field": "symbol", "type": "nominal"},
+        "y": {"field": "price", "type": "quantitative"}
+      },
+      "layer": [
+        {"mark": "line"},
+        {"transform": [{"filter": {"selection": "hover"}}], "mark": "point"}
+      ]
+    },
+    {
+      "transform": [{"pivot": "symbol", "value": "price", "groupby": ["date"]}],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {"value": 0.3, "selection": "hover"},
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "AAPL", "type": "quantitative"},
+          {"field": "AMZN", "type": "quantitative"},
+          {"field": "GOOG", "type": "quantitative"},
+          {"field": "IBM", "type": "quantitative"},
+          {"field": "MSFT", "type": "quantitative"}
+        ]
+      },
+      "selection": {
+        "hover": {
+          "type": "single",
+          "fields": ["date"],
+          "nearest": true,
+          "on": "mouseover",
+          "empty": "none",
+          "clear": "mouseout"
+        }
+      }
+    }
+  ]
+}
+  // Embed the visualization in the container with id `vis`
+vegaEmbed('#vis4', vlSpec);
 </script>
