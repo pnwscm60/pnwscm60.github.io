@@ -237,15 +237,22 @@ vegaEmbed('#vis3', vlSpec);
       // Assign the specification to a local variable vlSpec.
       var vlSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": {"url": "https://github.com/openZH/covid_19/master/COVID19_Fallzahlen_CH_total_v2.csv"},
+  "data": {"url": "https://pnwscm60.github.io/data/COVID19_Fallzahlen_CH_total_v2.csv"},
   "width": 400,
   "height": 300,
   "encoding": {"x": {"field": "date", "type": "temporal"}},
   "layer": [
     {
       "encoding": {
-        "color": {"field": "symbol", "type": "nominal"},
-        "y": {"field": "ncumul_conf", "type": "quantitative"}
+        "color": {"field": "abbreviation_canton_and_fl", "type": "nominal"},
+        "y": {"field": "ncumul_conf", "gt": 0, "type": "quantitative","axis": {"title": "Anzahl bestätigte Fälle"}},
+        "x": {
+      "field": "date", "type": "temporal",
+      "axis": {
+        "format":"%d.%m.",
+        "tickCount": 10,
+        "title": "Datum"
+        }}
       },
       "layer": [
         {"mark": "line"},
@@ -261,11 +268,32 @@ vegaEmbed('#vis3', vlSpec);
           "value": 0
         },
         "tooltip": [
-          {"field": "GE", "type": "quantitative"},
-          {"field": "TI", "type": "quantitative"},
-          {"field": "ZH", "type": "quantitative"},
+          {"field": "AG", "type": "quantitative"},
+          {"field": "AI", "type": "quantitative"},
+          {"field": "AR", "type": "quantitative"},
           {"field": "BE", "type": "quantitative"},
-          {"field": "VD", "type": "quantitative"}
+          {"field": "BL", "type": "quantitative"},
+          {"field": "BS", "type": "quantitative"},
+          {"field": "FR", "type": "quantitative"},
+          {"field": "GE", "type": "quantitative"},
+          {"field": "GL", "type": "quantitative"},
+          {"field": "GR", "type": "quantitative"},
+          {"field": "JU", "type": "quantitative"},
+          {"field": "LU", "type": "quantitative"},
+          {"field": "NE", "type": "quantitative"},
+          {"field": "NW", "type": "quantitative"},
+          {"field": "OW", "type": "quantitative"},
+          {"field": "SG", "type": "quantitative"},
+          {"field": "SH", "type": "quantitative"},
+          {"field": "SO", "type": "quantitative"},
+          {"field": "SZ", "type": "quantitative"},
+          {"field": "TG", "type": "quantitative"},
+          {"field": "TI", "type": "quantitative"},
+          {"field": "UR", "type": "quantitative"},
+          {"field": "VD", "type": "quantitative"},
+          {"field": "VS", "type": "quantitative"},
+          {"field": "ZG", "type": "quantitative"},
+          {"field": "ZH", "type": "quantitative"}
         ]
       },
       "selection": {
@@ -281,6 +309,7 @@ vegaEmbed('#vis3', vlSpec);
     }
   ]
 }
+
   // Embed the visualization in the container with id `vis`
 vegaEmbed('#vis4', vlSpec);
 </script>
