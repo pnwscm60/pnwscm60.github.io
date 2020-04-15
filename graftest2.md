@@ -237,7 +237,7 @@ vegaEmbed('#vis3', vlSpec);
       // Assign the specification to a local variable vlSpec.
       var vlSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": {"url": "data/stocks.csv"},
+  "data": {"url": "https://github.com/openZH/covid_19/blob/master/COVID19_Fallzahlen_CH_total_v2.csv"},
   "width": 400,
   "height": 300,
   "encoding": {"x": {"field": "date", "type": "temporal"}},
@@ -245,7 +245,7 @@ vegaEmbed('#vis3', vlSpec);
     {
       "encoding": {
         "color": {"field": "symbol", "type": "nominal"},
-        "y": {"field": "price", "type": "quantitative"}
+        "y": {"field": "ncumul_conf", "type": "quantitative"}
       },
       "layer": [
         {"mark": "line"},
@@ -253,7 +253,7 @@ vegaEmbed('#vis3', vlSpec);
       ]
     },
     {
-      "transform": [{"pivot": "symbol", "value": "price", "groupby": ["date"]}],
+      "transform": [{"pivot": "abbreviation_canton_and_fl", "value": "ncumul_conf", "groupby": ["date"]}],
       "mark": "rule",
       "encoding": {
         "opacity": {
@@ -261,11 +261,11 @@ vegaEmbed('#vis3', vlSpec);
           "value": 0
         },
         "tooltip": [
-          {"field": "AAPL", "type": "quantitative"},
-          {"field": "AMZN", "type": "quantitative"},
-          {"field": "GOOG", "type": "quantitative"},
-          {"field": "IBM", "type": "quantitative"},
-          {"field": "MSFT", "type": "quantitative"}
+          {"field": "GE", "type": "quantitative"},
+          {"field": "TI", "type": "quantitative"},
+          {"field": "ZH", "type": "quantitative"},
+          {"field": "BE", "type": "quantitative"},
+          {"field": "VD", "type": "quantitative"}
         ]
       },
       "selection": {
