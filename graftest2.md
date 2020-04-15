@@ -237,7 +237,7 @@ vegaEmbed('#vis3', vlSpec);
       // Assign the specification to a local variable vlSpec.
       var vlSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": {"url": "https://pnwscm60.github.io/data/COVID19_Fallzahlen_CH_total_v2.csv"},
+  "data": {"url": "data/COVID19_Fallzahlen_CH_total_v2.csv"},
   "width": 400,
   "height": 300,
   "encoding": {"x": {"field": "date", "type": "temporal"}},
