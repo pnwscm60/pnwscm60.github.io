@@ -1,4 +1,4 @@
-date,Alter,Woche,obeGrenze,hochrechnung,untGrenze
+date,Alter,Woche,untGrenze,Erwartung,obeGrenze,hochrechnung
 2020-01-05,65,1,1150,1241,1332,1151
 2020-01-12,65,2,1158,1249,1340,1182
 2020-01-19,65,3,1166,1258,1349,1204
