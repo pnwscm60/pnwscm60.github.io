@@ -208,7 +208,6 @@ vegaEmbed('#vis', vlSpec);
           "type": "quantitative",
           "axis": {"title": "Anzahl Todesfälle", "titleColor": "#85C5A6"}
         },
-
         "y2": {
           "aggregate": "average",
           "field": "untGrenze"
