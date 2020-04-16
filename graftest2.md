@@ -188,7 +188,7 @@ vegaEmbed('#vis', vlSpec);
   "data": {
     "url": "https://pnwscm60.github.io/data/chdeath.csv"
   }, 
-  "transform": [{"filter": "datum.Alter == \"65+\""}],
+  "transform": [{"filter": "datum.Alter == \"65\""}],
   "encoding": {
     "x": {
         "field": "date",
