@@ -206,7 +206,7 @@ vegaEmbed('#vis', vlSpec);
           "field": "obeGrenze",
           "scale": {"domain": [0, 1500]},
           "type": "quantitative",
-          "axis": {"title": "Anzahl Todesfälle", "titleColor": "#85C5A6"}
+          "axis": {"title": "Anzahl wöchentliche Todesfälle", "titleColor": "#85C5A6"}
         },
         "y2": {
           "aggregate": "average",
