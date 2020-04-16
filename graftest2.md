@@ -186,27 +186,30 @@ vegaEmbed('#vis', vlSpec);
   "description": "A dual axis chart, created by setting y's scale resolution to `\"independent\"`",
   "width": 300, "height": 300,
   "data": {
-    "url": "https://pnwscm60.github.io/data/chdeath.csv"
+    "url": "data/chdeath.csv"
   }, 
-  "transform": [{"filter": "datum.Alter == \"65\""}],
+  "axis": {
+    "font": "Open Sans Condensed"
+  },
   "encoding": {
     "x": {
         "field": "date",
         "axis": {"format": "%d.%m", "title": null},
         "type": "temporal",
-        "timeUnit": "daymonthyear"
+        "timeUnit": "daymonth"
     }
   },
   "layer": [
     {
       "mark": {"opacity": 0.3, "type": "area", "color": "#85C5A6"},
+      "transform": [{"filter": "datum.Alter == \"65\""}],
       "encoding": {
         "y": {
           "aggregate": "average",
           "field": "obeGrenze",
-          "scale": {"domain": [0, 1500]},
+          "scale": {"domain": [0, 1800]},
           "type": "quantitative",
-          "axis": {"title": "Anzahl wöchentliche Todesfälle", "titleColor": "#85C5A6"}
+          "axis": {"title": "Anzahl wöchentliche Todesfälle", "titleColor": "#111","format": ".2r"}
         },
         "y2": {
           "aggregate": "average",
@@ -215,12 +218,43 @@ vegaEmbed('#vis', vlSpec);
       }
     },
     {
-      "mark": {"stroke": "#85A9C5", "type": "line", "interpolate": "monotone"},
+      "mark": {"opacity": 0.3, "type": "area", "color": "#85C5A6"},
+      "transform": [{"filter": "datum.Alter == \"0-64\""}],
+      "encoding": {
+        "y": {
+          "aggregate": "average",
+          "field": "obeGrenze",
+          "scale": {"domain": [0, 1800]},
+          "type": "quantitative"
+        },
+        "y2": {
+          "aggregate": "average",
+          "field": "untGrenze"
+        }
+      }
+    },
+    {
+      "mark": {"stroke": "#85A9C5", "type": "line", "interpolate": "monotone","point": true},
+      "transform": [{"filter": "datum.Alter == \"0-64\""}],
       "encoding": {
         "y": {
           "aggregate": "mean",
           "field": "hochrechnung",
           "type": "quantitative",
+          
+          "axis": {}
+        }
+      }
+    },
+    {
+      "mark": {"stroke": "#85A9C5", "type": "line", "interpolate": "monotone","point": true},
+      "transform": [{"filter": "datum.Alter == \"65\""}],
+      "encoding": {
+        "y": {
+          "aggregate": "mean",
+          "field": "hochrechnung",
+          "type": "quantitative",
+          
           "axis": {}
         }
       }
