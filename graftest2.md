@@ -353,7 +353,7 @@ vegaEmbed('#vis4', vlSpec);
    var vlSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A dual axis chart, created by setting y's scale resolution to `\"independent\"`",
-  "width": 500, "height": 500,
+  "width": 400, "height": 400,
   "layer": [{
   "data": {
     "url": "https://pnwscm60.github.io/data/wodeathch1019.csv"
