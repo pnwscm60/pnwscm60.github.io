@@ -106,6 +106,7 @@ div.tooltip, div.tooltip2 {
 <div id="vis2"></div>
 <div id="vis3"></div>
 <div id="vis4"></div>
+<div id="vis5"></div>
 <script>
       // Assign the specification to a local variable vlSpec.
       var vlSpec = {
@@ -345,4 +346,87 @@ vegaEmbed('#vis3', vlSpec);
 
   // Embed the visualization in the container with id `vis`
 vegaEmbed('#vis4', vlSpec);
+</script>
+
+<script>
+   // Assign the specification to a local variable vlSpec.
+   var vlSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A dual axis chart, created by setting y's scale resolution to `\"independent\"`",
+  "width": 900, "height": 300,
+  "data": {
+    "url": "data/chdeath1019.csv"
+  }, 
+  "axis": {
+    "font": "Open Sans Condensed"
+  },
+  "encoding": {
+    "x": {
+        "field": "date",
+        "axis": {"format": "%d.%m", "title": null},
+        "type": "temporal",
+        "timeUnit": "daymonth"
+    }
+  },
+  "layer": [
+    {
+      "mark": {"opacity": 0.3, "type": "area", "color": "#85C5A6"},
+      "transform": [{"filter": "datum.Alter == \"65\""}],
+      "encoding": {
+        "y": {
+          "aggregate": "average",
+          "field": "obeGrenze",
+          "scale": {"domain": [0, 1800]},
+          "type": "quantitative",
+          "axis": {"title": "Anzahl wöchentliche Todesfälle", "titleColor": "#111","format": ".2r"}
+        },
+        "y2": {
+          "aggregate": "average",
+          "field": "untGrenze"
+        }
+      }
+    },
+    {
+      "mark": {"opacity": 0.3, "type": "area", "color": "#85C5A6"},
+      "transform": [{"filter": "datum.Alter == \"0-64\""}],
+      "encoding": {
+        "y": {
+          "aggregate": "average",
+          "field": "obeGrenze",
+          "scale": {"domain": [0, 1800]},
+          "type": "quantitative"
+        },
+        "y2": {
+          "aggregate": "average",
+          "field": "untGrenze"
+        }
+      }
+    },
+    {
+      "mark": {"stroke": "#85A9C5", "type": "line", "interpolate": "monotone","point": true},
+      "transform": [{"filter": "datum.Alter == \"0-64\""}],
+      "encoding": {
+        "y": {
+          "aggregate": "mean",
+          "field": "Anzahl_Todesfalle",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {"stroke": "#85A9C5", "type": "line", "interpolate": "monotone","point": true},
+      "transform": [{"filter": "datum.Alter == \"65\""}],
+      "encoding": {
+        "y": {
+          "aggregate": "mean",
+          "field": "Anzahl_Todesfalle",
+          "type": "quantitative"
+        }
+      }
+    }
+  ]
+}
+
+// Embed the visualization in the container with id `vis`
+vegaEmbed('#vis5', vlSpec);
 </script>
