@@ -362,7 +362,7 @@ vegaEmbed('#vis4', vlSpec);
   },
   "encoding": {
     "x": {
-        "field": "date",
+        "field": "Endend",
         "axis": {"format": "%d.%m", "title": null},
         "type": "temporal",
         "timeUnit": "daymonth"
