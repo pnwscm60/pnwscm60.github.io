@@ -107,78 +107,6 @@ div.tooltip, div.tooltip2 {
 <div id="vis3"></div>
 <div id="vis4"></div>
 <div id="vis5"></div>
-<script>
-      // Assign the specification to a local variable vlSpec.
-      var vlSpec = {
-  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": {"url": "https://vega.github.io/vega-lite/examples/data/cars.json"},
-  "encoding": {
-    "x": {
-      "field": "Year",
-      "type": "temporal",
-      "timeUnit": "year"
-    }
-  },
-  "layer": [
-    {
-      "mark": {"type": "errorband", "extent": "ci"},
-      "encoding": {
-        "y": {
-          "field": "Miles_per_Gallon",
-          "type": "quantitative",
-          "title": "Mean of Miles per Gallon (95% CIs)"
-        }
-      }
-    },
-    {
-      "mark": "line",
-      "encoding": {
-        "y": {
-          "aggregate": "mean",
-          "field": "Miles_per_Gallon",
-          "type": "quantitative"
-        }
-      }
-    }
-  ]
-}
-// Embed the visualization in the container with id `vis`
-vegaEmbed('#vis2', vlSpec);
-</script>
-<script>
-      // Assign the specification to a local variable vlSpec.
-      var vlSpec = {
-        $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
-        data: {
-          values: [
-            {a: 'C', b: 2},
-            {a: 'C', b: 7},
-            {a: 'C', b: 4},
-            {a: 'D', b: 1},
-            {a: 'D', b: 2},
-            {a: 'D', b: 6},
-            {a: 'E', b: 8},
-            {a: 'E', b: 4},
-            {a: 'E', b: 7}
-          ]
-        },
-        mark: 'bar',
-        encoding: {
-          y: {field: 'a', type: 'nominal'},
-          x: {
-            aggregate: 'average',
-            field: 'b',
-            type: 'quantitative',
-            axis: {
-              title: 'Average of b'
-            }
-          }
-        }
-      };
-
-      // Embed the visualization in the container with id `vis`
-vegaEmbed('#vis', vlSpec);
-</script>
 
 <script>
    // Assign the specification to a local variable vlSpec.
@@ -187,7 +115,7 @@ vegaEmbed('#vis', vlSpec);
   "description": "A dual axis chart, created by setting y's scale resolution to `\"independent\"`",
   "width": 300, "height": 300,
   "data": {
-    "url": "data/chdeath.csv"
+    "url": "https://pnwscm60.github.io/data/chdeath.csv"
   }, 
   "axis": {
     "font": "Open Sans Condensed"
@@ -235,29 +163,53 @@ vegaEmbed('#vis', vlSpec);
       }
     },
     {
-      "mark": {"stroke": "#85A9C5", "type": "line", "interpolate": "monotone","point": true},
+      "mark": {
+        "stroke":"#85A9C5", "type": "line", "interpolate": "monotone","point": true},
       "transform": [{"filter": "datum.Alter == \"0-64\""}],
       "encoding": {
         "y": {
           "aggregate": "mean",
           "field": "hochrechnung",
-          "type": "quantitative",
-          
-          "axis": {}
+          "type": "quantitative"
         }
       }
     },
     {
-      "mark": {"stroke": "#85A9C5", "type": "line", "interpolate": "monotone","point": true},
+      "mark": {
+        "stroke": "#85A9C5", "type": "line", "interpolate": "monotone","point": ""},
       "transform": [{"filter": "datum.Alter == \"65\""}],
       "encoding": {
         "y": {
           "aggregate": "mean",
           "field": "hochrechnung",
-          "type": "quantitative",
-          
-          "axis": {}
+          "type": "quantitative"
         }
+      }
+    },
+    {
+      "mark": "point",
+      "transform": [{"filter": "datum.Alter == \"65\""}],
+      "encoding": {
+        "y": {
+          "aggregate": "mean",
+          "field": "hochrechnung",
+          "type": "quantitative"
+        },
+        "tooltip": [{"field": "Woche", "type":"quantitative"},{"field": "hochrechnung", "label": "Todesfälle","type":"quantitative"}],
+        "fill": { "value": "#fff" }
+      }
+    },
+    {
+      "mark": "point",
+      "transform": [{"filter": "datum.Alter == \"0-64\""}],
+      "encoding": {
+        "y": {
+          "aggregate": "mean",
+          "field": "hochrechnung",
+          "type": "quantitative"
+        },
+        "tooltip": [{"field": "Woche", "type":"quantitative"},{"field": "hochrechnung", "type":"quantitative"}],
+        "fill": { "value": "#fff" }
       }
     }
   ]
