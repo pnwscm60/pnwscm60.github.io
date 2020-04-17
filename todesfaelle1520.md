@@ -12,16 +12,16 @@
 </style>
   </head>
   <body>
-    <h2>Test for online graphs</h2>
+    <h2>Todesfälle in der Schweiz 2015-2020</h2>
     <!-- Container for the visualization -->
- 
-<div id="vis"></div>
+    <div>Visualisierung der Todesfälle und der Übersterblichkeit in der Schweiz 2015–2020. Datenquelle: Bundesamt für Statistik, abgerufen 17.4.2020</div> 
+<div id="vis" style="margin-top:1em;border-radius:5px;background-color:#fff;box-shadow:1px 1px 3px #666;"></div>
 
 <script>
    // Assign the specification to a local variable vlSpec.
    var vlSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dual axis chart, created by setting y's scale resolution to `\"independent\"`",
+  "description": "Visualization of deaths in Switzerland, combined data from bfs",
   "width": 400, "height": 400,
   "layer": [{
   "data": {
