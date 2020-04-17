@@ -15,7 +15,7 @@
     <h2>Todesfälle in der Schweiz 2015-2020</h2>
     <!-- Container for the visualization -->
     <div>Visualisierung der Todesfälle und der Übersterblichkeit in der Schweiz 2015–2020.<br/>Datenquelle: Bundesamt für Statistik, abgerufen 17.4.2020</div> 
-<div id="vis" style="padding:8px;margin-top:1em;border-radius:5px;background-color:#fff;box-shadow:1px 1px 3px #666;"></div>
+<div id="vis" style="padding:1em;margin-top:1em;border-radius:5px;background-color:#fff;box-shadow:1px 1px 3px #666;"></div>
 
 <script>
    // Assign the specification to a local variable vlSpec.
