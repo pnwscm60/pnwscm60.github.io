@@ -21,6 +21,12 @@
 	<div style="float:left"><a href="images/covid19outbreak_de.svg" target="_blank">animated de (svg)</a><br/><a href="images/covid19outbreak_en.svg" target="_blank">animated en (svg)</a></div>
     	<div style="font-size:0.85em;clear:both">Animation (number of cases, deaths and ICU need of Covid-19 outbreak without mitigation </div>
 	</div>
+
+<div id="cont3" class="graph">
+    	<div><a href="todesfaelle1520.html"><img src="images/todesfaelle1520.png" width="180"></a></div>
+  	<div style="font-size:0.85em;clear:both">Visualization of deaths in Switzerland and overflow over expected values with probable causes. Will be acutalized end of each week.</div>
+	</div>
+
   <h2>Links</h2>
   <div><a href="https://ispmbern.github.io/covid-19/swiss-epidemic-model/" target="_blank">Real-time modeling and projections of the COVID-19 epidemic in Switzerland (ISPM Unibe)</a></div>
     <div><a href="https://www.corona-data.ch/" target="_blank">Corona-data.ch information about Covid-19 epidemic in Switzerland</a></div>
