@@ -353,19 +353,17 @@ vegaEmbed('#vis4', vlSpec);
    var vlSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "A dual axis chart, created by setting y's scale resolution to `\"independent\"`",
-  "width": 900, "height": 300,
-  "data": {
-    "url": "data/chdeath1019.csv"
-  }, 
-  "axis": {
-    "font": "Open Sans Condensed"
-  },
+  "width": 900,
+  "height": 300,
+  "data": {"url": "https://pnwscm60.github.io/data/wodeathch1019.csv"},
+  "transform": [{"filter": "datum.KJ > \"2014\""}],
+  "axis": {"font": "Open Sans Condensed"},
   "encoding": {
     "x": {
-        "field": "Endend",
-        "axis": {"format": "%d.%m", "title": null},
-        "type": "temporal",
-        "timeUnit": "daymonth"
+      "field": "Endend",
+      "axis": {"format": "%d.%m.%y", "title": null},
+      "type": "temporal",
+      "timeUnit": "daymonthyear"
     }
   },
   "layer": [
@@ -378,12 +376,13 @@ vegaEmbed('#vis4', vlSpec);
           "field": "obeGrenze",
           "scale": {"domain": [0, 1800]},
           "type": "quantitative",
-          "axis": {"title": "Anzahl wöchentliche Todesfälle", "titleColor": "#111","format": ".2r"}
+          "axis": {
+            "title": "Anzahl wöchentliche Todesfälle",
+            "titleColor": "#111",
+            "format": ".2r"
+          }
         },
-        "y2": {
-          "aggregate": "average",
-          "field": "untGrenze"
-        }
+        "y2": {"aggregate": "average", "field": "untGrenze"}
       }
     },
     {
@@ -396,14 +395,16 @@ vegaEmbed('#vis4', vlSpec);
           "scale": {"domain": [0, 1800]},
           "type": "quantitative"
         },
-        "y2": {
-          "aggregate": "average",
-          "field": "untGrenze"
-        }
+        "y2": {"aggregate": "average", "field": "untGrenze"}
       }
     },
     {
-      "mark": {"stroke": "#85A9C5", "type": "line", "interpolate": "monotone","point": true},
+      "mark": {
+        "stroke": "#85A9C5",
+        "type": "line",
+        "interpolate": "monotone",
+        "point": false
+      },
       "transform": [{"filter": "datum.Alter == \"0-64\""}],
       "encoding": {
         "y": {
@@ -414,7 +415,12 @@ vegaEmbed('#vis4', vlSpec);
       }
     },
     {
-      "mark": {"stroke": "#85A9C5", "type": "line", "interpolate": "monotone","point": true},
+      "mark": {
+        "stroke": "#85A9C5",
+        "type": "line",
+        "interpolate": "monotone",
+        "point": false
+      },
       "transform": [{"filter": "datum.Alter == \"65\""}],
       "encoding": {
         "y": {
