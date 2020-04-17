@@ -128,7 +128,7 @@
           "color": "red",
           "type": "text",
           "align": "left",
-          "dx": -225,
+          "dx": -180,
           "dy":30,
           "text": "Grippe"
         }
@@ -138,7 +138,7 @@
           "color": "red",
           "type": "text",
           "align": "left",
-          "dx": -65,
+          "dx": -50,
           "dy":30,
           "text": "Grippe"
         }
@@ -149,7 +149,7 @@
           "type": "text",
           "align": "left",
           "dx": 130,
-          "dy":-10,
+          "dy":-15,
           "text": "Covid-19"
         }
       }
@@ -171,8 +171,8 @@
           "color": "#666",
           "type": "text",
           "align": "left",
-          "dx": -240,
-          "dy":5,
+          "dx": -194,
+          "dy":2,
           "text": "Altersgruppe 65 Jahre und älter"
         }
       },
@@ -181,15 +181,14 @@
           "color": "#666",
           "type": "text",
           "align": "left",
-          "dx": -240,
-          "dy":160,
+          "dx": -194,
+          "dy":130,
           "text": "Altersgruppe 0–64 Jahre"
         }
       }
       ]
     }]
 }
-
 // Embed the visualization in the container with id `vis`
 vegaEmbed('#vis', vlSpec);
 </script>
