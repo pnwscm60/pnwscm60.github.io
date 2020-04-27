@@ -2,6 +2,7 @@
   <head>
     <title>Estimation Rt</title>
     <meta charset="utf-8" />
+    <meta http-equiv="expires" content="0">
   <style>
  /* FONTS */
  @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700");
