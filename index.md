@@ -29,7 +29,7 @@
 
 <div id="cont4" class="graph">
     	<div style="float:left;"><a href="estimrt.html"><img src="images/estimate_200427.svg" width="135"></a></div>
-  	<div style="float:left;font-size:0.85em;">Estimation of realtime Rt in Swiss cantons with over 750 cases per April 27th.</div>
+  	<div style="float:left;font-size:0.85em;">Estimation of realtime Rt in Swiss cantons with over 750 cases (last update:April 27th.</div>
 	</div>
 
   <h2>Links</h2>
