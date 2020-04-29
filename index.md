@@ -31,6 +31,11 @@
     	<div style="float:left;"><a href="estimrt.html"><img src="images/estimate_200428.svg" width="135"></a></div>
   	<div style="float:left;font-size:0.85em;">Estimation of realtime Rt in Swiss cantons with over 750 cases (last update:April 27th.</div>
 	</div>
+	
+<div id="cont5" class="graph">
+    	<div style="float:left;"><a href="estimrtcountries.html"><img src="images/estim_eu_2904.svg" width="135"></a></div>
+  	<div style="float:left;font-size:0.85em;">Estimation of realtime Rt in Swiss cantons with over 750 cases (last update:April 27th.</div>
+	</div>
 
   <h2>Links</h2>
   <div><a href="https://ispmbern.github.io/covid-19/swiss-epidemic-model/" target="_blank">Real-time modeling and projections of the COVID-19 epidemic in Switzerland (ISPM Unibe)</a></div>
