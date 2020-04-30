@@ -55,6 +55,8 @@ h4 {
 	float:left;
 	margin:0 1em 0.5em 0;
 }
+.ntext {
+	margin-bottom:0.4em;}
 @media only screen and (max-width: 800px) {
 	body {
 	margin: 0.5em 1em 1em 1em;
