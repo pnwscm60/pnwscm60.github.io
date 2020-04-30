@@ -10,7 +10,7 @@
   </head>
   <body>
     <h2>Science?</h2>
-    <div class="zweicol">
+    <div class="twocol">
     <div class="ntext">
       Ben Goldacre  prompted the term "<a href="#ref1" id="rref1">Bad Science</a>" with his book, describing many negative aspects of science processes and behaviour of scientists. This description of a more or less corrupt science industry naturally carries the danger that all scientists are lumped together. I do not intend to do this. My aim is very simple. I try to put my finger on examples of actual dubious behaviour in the field of science. The main focus is on health care.
     </div>
