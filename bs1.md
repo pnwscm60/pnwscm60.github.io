@@ -12,10 +12,13 @@
     <h2>Science?</h2>
     <div class="twocol">
     <div class="ntext">
-      Ben Goldacre  prompted the term "<a href="#ref1" id="rref1">Bad Science</a>" with his book, describing many negative aspects of science processes and behaviour of scientists. This description of a more or less corrupt science industry naturally carries the danger that all scientists are lumped together. I do not intend to do this. My aim is very simple. I try to put my finger on examples of actual dubious behaviour in the field of science. The main focus is on health care.
+      Ben Goldacre  prompted the term "<a href="#ref1" id="rref1">Bad Science</a>" with his book, describing many negative aspects of science processes and behaviour of scientists. This description of a more or less corrupt science industry naturally carries the danger that all scientists are lumped together. I do not intend to do this. My aim is very simple. I try to put my finger on examples of bad behaviour in the field of science. This is not intended to be a comprehensive analysis of the problem. The main focus is on health care.
     </div>
     <div>
       The notion of bad science is not a new one – it accompanied science from the beginning. It comes not only in the guise of misbehaviour. Bad science is often based on repeating incorrect explications of well understood phenomena and is seen in the full field of science, not only in medicine. <a href="ref2" id="rref2">Constructivism</a> offers some explanations for this behaviour, as it's in the end the process of learning and deconstruction of old, simple concepts, learned in children age and reconstruction of newer, more complex concepts in highscools and universities. 
+    </div>
+    <div class="ntext">
+      The impetus for this blog was - hardly surprisingly - the SARS-CoV-2 pandemic, which continues to keep us in suspense in these days. We see an avalanche of preprints, without peer review, discussed extensively in the mass media and (mis-)used by politicians, if some of the arguments of the authors can be taken to underline their agenda. Jackie Flynn Mogensen gives in a recent article in Mother Jones, "Science has an Ugly, Complicated Dark Side. And the Coronavirus Is Bringing It Out" some insight, what this means, using the example of the Ibuprofen controversy and the Remdesivir controversy. The first one was based on a letter from three scientists. Example Bergstrom.
     </div>
     <div class="ntext">
       The use of outdated source could be seen as scientific misbehaviour. Quite a lot of medical schools worldwide base their curriculum on standard works in anatomy, physiology, pathology a.o. But this does not reflect the progress in these fields of basic science   
