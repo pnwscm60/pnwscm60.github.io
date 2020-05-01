@@ -26,13 +26,16 @@
     	<div style="float:left;"><a href="todesfaelle1520.html"><img src="images/todesfaelle1520.png" width="135"></a></div>
   	<div style="float:left;font-size:0.85em;">Visualization of deaths in Switzerland and overflow over expected values with probable causes. Will be acutalized end of each week.</div>
 	</div>
-
 <div id="cont4" class="graph">
+    	<div style="float:left;"><a href="estimrtch.html"><img src="images/rtch3004.svg" width="135"></a></div>
+  	<div style="float:left;font-size:0.85em;">Estimation of Rt for Switzerland. Will be actualized daily, but not on weekends.</div>
+	</div>
+<div id="cont5" class="graph">
     	<div style="float:left;"><a href="estimrt.html"><img src="images/estimate_200428.svg" width="135"></a></div>
   	<div style="float:left;font-size:0.85em;">Estimation of realtime Rt in Swiss cantons with over 750 cases. Last update: April 29th.</div>
 	</div>
 	
-<div id="cont5" class="graph">
+<div id="cont6" class="graph">
     	<div style="float:left;"><a href="estimrtcountries.html"><img src="images/estim_eu_2904.svg" width="135"></a></div>
   	<div style="float:left;font-size:0.85em;">Estimation of realtime Rt in some European countries including Switzerland. Last update: April 29th.</div>
 	</div>
