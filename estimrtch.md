@@ -14,3 +14,4 @@
     <div style="margin-bottom:1em;">CAVE: Some cantons deliver data one day later only, some cantons deliver data of the day at noon. Data for the last few days are often corrected 2–3 days later, especially after weekends. This is an estimation of Rt only.</div>
     <div><img src="/images/rtch0405.svg" style="max-width:600px;"></div>
     <div style="font-size:1em;style:italic;">Estimated Rt for Switzerland per 4th of Mai. Yellow: Highest density interval (95%).</div>
+    <div style="margin:1em 0 1em 0;">This estimation is in line with the newly published <a href="https://ncs-tf.ch/de/lagebericht" target="_blank">effective reproduction number</a> by the <a href="https://ncs-tf.ch/de/" target="_blank">Swiss national Covid-19 Sciensce Task Force</a>. </div>
