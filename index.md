@@ -24,7 +24,7 @@
 
 <div id="cont3" class="graph">
     	<div style="float:left;"><a href="todesfaelle1520.html"><img src="images/todesfaelle1520.png" width="135"></a></div>
-  	<div style="float:left;font-size:0.85em;">Visualization of deaths in Switzerland and overflow over expected values with probable causes. Will be acutalized end of each week.</div>
+  	<div style="float:left;font-size:0.85em;">Visualization of deaths in Switzerland and overflow over expected values with probable causes. To be actualized end of each week.</div>
 	</div>
 <div id="cont4" class="graph">
     	<div style="float:left;"><a href="estimrtch.html"><img src="images/rtch0205.svg" width="135"></a></div>
