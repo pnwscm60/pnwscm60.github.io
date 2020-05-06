@@ -36,7 +36,7 @@
 	</div>
 	
 <div id="cont6" class="graph">
-    	<div style="float:left;"><a href="estimrtcountries.html"><img src="images/estim_eu_2904.svg" width="135"></a></div>
+    	<div style="float:left;"><a href="estimrtcountries.html"><img src="images/rteu_0505.svg" width="135"></a></div>
   	<div style="float:left;font-size:0.85em;">Estimation of realtime Rt in some European countries including Switzerland. Last update: April 29th.</div>
 	</div>
 
