@@ -28,8 +28,7 @@
       <div class="ntext">
       We can expect to have a r below 1, when the peak of new infections is reached. And using this formula, we can calculate the cases in the end. In Switzerland, the peak was reached on March 26th with 13000 cases. Let's assume a r-value of 0.7, which seams reasonable from the data given by <a href="#ref2" id="rref2">Swiss National Covid-19 Science Task Force</a>, as (given a fixed r-value), the sum converges to 
         $$
-        cases = \frac{g}{1-r} = \frac{13000}{0.3} = 43000 cases
-        $$
+        cases = \frac{g}{1-r} = \frac{13000}{0.3} = 43000
         </div>
     <div class="ntext">
       Why is this important? From the data collected worldwide about Covid-19, we expect, that the number of deaths is proportional to the number of infected people. This number, the case fatality rate (CFR) differs as it depends heavily on the test capacity. In Switzerland and Germany, testing a lot, the CFR is about 5%. As the number of deaths is proportional to the cases, we can take the peak death toll as starting point g. Given r-value = 0.7 for Switzerland, the final number of deaths will be about
