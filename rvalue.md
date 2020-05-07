@@ -38,11 +38,11 @@
       $$
     </div>
   <div class="ntext">
-    Switzerland has started to loosen the restrictions and will have a soft regime by May 11th (limited access to restaurants, no mass events like concerts/football matches). Let's assume, that r will go up to 0.9 by this "opening" process. Until May 11th, we will have about 1830 deaths in total by Covid-19.
+    Switzerland has started to loosen the restrictions and will have a soft regime by May 11th (limited access to restaurants, no mass events like concerts/football matches). If we assume a higher r-value of 0.9, this would give us 
     $$
-    deaths = \frac{g}{1-r} = \frac{1830}{0.1} = 7000
+    deaths = \frac{g}{1-r} = \frac{700}{0.1} = 7000
     $$
-The death toll will be 3 times higher, if we are not able to hold r-value at about 0.7. So: We should aim to reduce the r-value as low as possible. If we look at the situation in US, this same principle let us expect, that the death toll will be much higher: We see a r-value lingering between 0.9 and 1 and have (hopefully) reached a peak at about 70000 deaths. 
+The death toll will be 3 times higher, if we are not able to hold r-value at about 0.7. So: We should aim to reduce the r-value as low as possible. If we look at the <a href="#ref3" id="rref3">situation in US</a>, this same principle let us expect, that the death toll will be much higher: We see a r-value lingering between 0.9 and 1 and have (hopefully) reached a peak at about 70000 deaths. 
     $$
     deaths = \frac{g}{1-r} = \frac{70000}{0.1} = 700000
     $$
@@ -53,5 +53,5 @@ So, let's do all we can, to lower the r-value: physical distancing and hygiene m
         <div style="border-top:1px solid #000000;width:100px;clear:both;height:4px;line-height:4px;">&nbsp;</div>
         <div id="ref1"><a href="#rref1">^</a> As R is the name of a statistics software widely used today, we use the term of r-value instead of R.</div>
         <div id="ref2"><a href="#rref2">^</a> <a href="https://ncs-tf.ch/de/lagebericht" target="_blank">Situation report by the Swiss National Covid-19 Science Task Force</a></div>
-    
+    <div id="ref2"><a href="#rref2">^</a> <a href="https://www.worldometers.info/coronavirus/" target="_blank">Worldometer</a></div>
     </div>
