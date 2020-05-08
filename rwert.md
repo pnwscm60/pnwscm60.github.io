@@ -28,28 +28,28 @@
       <div class="ntext">
         Bei einem einfachen eingipfeligen Verlauf können wir vermuten, dass R<sub>e</sub> unter 1 liegt, sobald die Spitze der Neuinfektionen überschritten wird. Nehmen wir ab diesem Zeitpunkt ein gleichbleibendes R<sub>e</sub> an, können wir die Gesamtsumme der Fälle abschätzen. In der Schweiz wurde der Gipfel der Neuinfektionen mit 13000 Fällen ungefähr am 26. März überschritten. Nehmen wir ab diesem Zeitpunkt ein R<sub>e</sub> von 0.7 an – dies erscheint aufgrund der Daten der <a href="#ref2" id="rref2">Swiss National Covid-19 Science Task Force</a> als vernünftig – konvergiert die Summe der Infektionsfälle zu 
         $$
-        Bestätigte Fälle = \frac{g}{1-r} = \frac{13000}{0.3} = 43000
+        Bestätigte Infektionen = \frac{g}{1-r} = \frac{13000}{0.3} = 43000
         $$
         </div>
     <div class="ntext">
       Die Zahl der Todesfälle ist proportional zur Anzahl der bestätigten Fälle. Dies wird durch die sogenannte Case Fatality Rate (CFR) ausgedrückt (Anzahl Todesfälle pro bestätigten Fall). In der Schweiz liegt dieser Wert im Moment bei ungefähr 5 %, in Deutschland bei ungefähr 4 %. Die CFR hängt natürlich davon ab, wie viele Tests durchgeführt werden. In Schweden beispielsweise, das verhätnismässig wenig testet, lag die CFR am 8. Mai bei 12 %. Anstelle der bestätigten Fälle können wir auch die Todesfallzahl einsetzen und so die zu erwartende Summe der Todesfälle abschätzen. Unter der Annahme eines R<sub>e</sub> von 0.7 hat die Schweiz ingesamt ungefähr
       $$
-      Todesfälle = \frac{g}{1-r} = \frac{700}{0.3} = 2333
+      Tote = \frac{g}{1-r} = \frac{700}{0.3} = 2333
       $$
       zu erwarten.
     </div>
   <div class="ntext">
   Nehmen wir ab dem Spitzenwert ein R<sub>e</sub> von 0.9 an, wie wir es bei Lockerung der Massnahmen wohl erwarten müssen, ergäbe dies eine Summe von 
     $$
-    Todesfälle = \frac{g}{1-r} = \frac{700}{0.1} = 7000
+    Tote = \frac{g}{1-r} = \frac{700}{0.1} = 7000
     $$
     Die Zahl der Todesfälle liegt also drei mal höher. Diese Rechnung ist selbstverständlich eine starke Vereinfachung, das R<sub>e</sub> nicht fix ist, sondern – je nachdem, wie gut die Grundregeln von Abstand halten und Hygiene eingehalten werden – mehr oder weniger schwankt. Immerhin sollte klar sein, dass es sich lohnt, die Infektionsrate möglichst gering zu halten. In Schweden liegt R<sub>e</sub> derzeit nur knapp unter 1, in den USA und in Grossbritannien sogar darüber. Nimmt man für Schweden den aktuellen Stand der Todesfälle (8. Mai: 3175) als Ausgangswert und geht aufgrund der lockeren Regeln von einem stabilen R<sub>e</sub> von 0.9 aus, ergibt dies eine Endsumme der Todesfälle von 
     $$
-    Todesfälle = \frac{g}{1-r} = \frac{3175}{0.1} = 31750
+    Tote = \frac{g}{1-r} = \frac{3175}{0.1} = 31750
     $$
 In den USA scheint die Epidemie derzeit auf die ländlichen Gebiete überzuspringen, während offenbar in vielen Bundesstaaten Lockerungen der Massnahmen verkündet werden. Gehen wir auch hier von einem R<sub>e</sub> 0.9 (aktuell liegt der Wert über 1), so ergäben sich 
     $$
-    Todesfälle = \frac{g}{1-r} = \frac{78500}{0.1} = 785000
+    Tote = \frac{g}{1-r} = \frac{78500}{0.1} = 785000
     $$
       </div>
       <div class="ntext">Die Pandemie ist noch lange nicht überstanden. Es wird sich lohnen, die Infektionsrate so tief wie möglich zu halten. Aus den Analysen der Auswirkungen verschiedener Massnahmen bedeutet das: <a href="#ref3" id="rref3">Abstand halten, Hygiene und Verbot von Grossveranstaltungen.</div>
