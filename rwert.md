@@ -52,8 +52,7 @@ In den USA scheint die Epidemie derzeit auf die ländlichen Gebiete überzusprin
     Tote = \frac{g}{1-r} = \frac{78500}{0.1} = 785000
     $$
       </div>
-      <div class="ntext">Die Pandemie ist noch lange nicht überstanden. Es wird sich lohnen, die Infektionsrate so tief wie möglich zu halten. Aus den Analysen der Auswirkungen verschiedener Massnahmen bedeutet das: <a href="#ref3" id="rref3">Abstand halten, Hygiene und Verbot von Grossveranstaltungen.</div>
-So, let's do all we can, to lower the r-value: physical distancing and hygiene measures are key!
+      <div class="ntext">Die Pandemie ist noch lange nicht überstanden. Es wird sich lohnen, die Infektionsrate so tief wie möglich zu halten. Aus den Analysen der Auswirkungen verschiedener Massnahmen bedeutet das: <a href="#ref3" id="rref3">Abstand halten, Maske in Innenräumen, Hygiene und Verbot von Grossveranstaltungen.</div>
     </div>
     </div>
       <div id="foot" style="font-size:0.9em;margin-top:1em;font-style:italic;">
