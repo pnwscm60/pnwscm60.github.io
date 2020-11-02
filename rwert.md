@@ -43,13 +43,10 @@
     $$
     Tote = \frac{g}{1-r} = \frac{700}{0.1} = 7000
     $$
-    Die Zahl der Todesfälle liegt also drei mal höher. Diese Rechnung ist selbstverständlich eine starke Vereinfachung, das R<sub>e</sub> nicht fix ist, sondern – je nachdem, wie gut die Grundregeln von Abstand halten und Hygiene eingehalten werden – mehr oder weniger schwankt. Immerhin sollte klar sein, dass es sich lohnt, die Infektionsrate möglichst gering zu halten. In Schweden liegt R<sub>e</sub> derzeit nur knapp unter 1, in den USA und in Grossbritannien sogar darüber. Nimmt man für Schweden den aktuellen Stand der Todesfälle (8. Mai: 3175) als Ausgangswert und geht aufgrund der lockeren Regeln von einem stabilen R<sub>e</sub> von 0.9 aus, ergibt dies eine Endsumme der Todesfälle von 
+    Die Zahl der Todesfälle liegt also drei mal höher. Diese Rechnung ist selbstverständlich eine starke Vereinfachung, das R<sub>e</sub> nicht fix ist, sondern – je nachdem, wie gut die Grundregeln von Abstand halten und Hygiene eingehalten werden – mehr oder weniger schwankt. Immerhin sollte klar sein, dass es sich lohnt, die Infektionsrate möglichst gering zu halten. 
+In den USA scheint die Epidemie derzeit auf die ländlichen Gebiete überzuspringen, während offenbar in vielen Bundesstaaten Lockerungen der Massnahmen verkündet werden. Gehen wir hier von einem R<sub>e</sub> 0.7 (aktuell liegt der Wert über 1), so ergäben sich 
     $$
-    Tote = \frac{g}{1-r} = \frac{3175}{0.1} = 31750
-    $$
-In den USA scheint die Epidemie derzeit auf die ländlichen Gebiete überzuspringen, während offenbar in vielen Bundesstaaten Lockerungen der Massnahmen verkündet werden. Gehen wir auch hier von einem R<sub>e</sub> 0.9 (aktuell liegt der Wert über 1), so ergäben sich 
-    $$
-    Tote = \frac{g}{1-r} = \frac{78500}{0.1} = 785000
+    Tote = \frac{g}{1-r} = \frac{78500}{0.3} = 261666
     $$
       </div>
       <div class="ntext">Die Pandemie ist noch lange nicht überstanden. Es wird sich lohnen, die Infektionsrate so tief wie möglich zu halten. Aus den Analysen der Auswirkungen verschiedener Massnahmen bedeutet das: <a href="#ref3" id="rref3">Abstand halten, Maske in Innenräumen, Hygiene und Verbot von Grossveranstaltungen.</div>
