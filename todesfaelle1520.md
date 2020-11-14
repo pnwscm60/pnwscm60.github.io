@@ -14,7 +14,7 @@
   <body>
     <h2>Todesfälle in der Schweiz 2015-2020</h2>
     <!-- Container for the visualization -->
-    <div>Visualisierung der Todesfälle und der Übersterblichkeit in der Schweiz 2015–2020.<br/>Datenquelle: Bundesamt für Statistik, abgerufen 15.11.2020</div> 
+    <div>Visualisierung der Todesfälle und der Übersterblichkeit in der Schweiz 2015–2020. Datenquelle: Bundesamt für Statistik, abgerufen 15.11.2020</div> 
 <div id="vis" style="padding:1em;margin-top:1em;border-radius:5px;background-color:#fff;box-shadow:1px 1px 3px #666;"></div>
 
 <script>
@@ -22,7 +22,7 @@
    var vlSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Visualization of deaths in Switzerland, combined data from bfs",
-  "width": 760, "height": 400,
+  "width": 700, "height": 400,
   "layer": [{
   "data": {
     "url": "https://pnwscm60.github.io/data/wodeathch1019.csv"
