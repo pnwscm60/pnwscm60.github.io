@@ -45,7 +45,7 @@
   },
   "layer": [
     {
-      "mark": {"opacity": 0.25, "type": "area", "color": "##ffff66"},
+      "mark": {"opacity": 0.25, "type": "area", "color": "#85C5A6"},
       "transform": [{"filter": "datum.Alter == \"65\""}],
       "encoding": {
         "y": {
@@ -62,7 +62,7 @@
       }
     },
     {
-      "mark": {"opacity": 0.25, "type": "area", "color": "#ffff66"},
+      "mark": {"opacity": 0.25, "type": "area", "color": "#85C5A6"},
       "transform": [{"filter": "datum.Alter == \"0-64\""}],
       "encoding": {
         "y": {
