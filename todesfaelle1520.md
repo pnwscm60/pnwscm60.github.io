@@ -128,7 +128,7 @@
           "color": "red",
           "type": "text",
           "align": "left",
-          "dx": -160,
+          "dx": -120,
           "dy":10,
           "text": "Grippe"
         }
@@ -138,7 +138,7 @@
           "color": "red",
           "type": "text",
           "align": "left",
-          "dx": -30,
+          "dx": 10,
           "dy":10,
           "text": "Grippe"
         }
@@ -148,7 +148,7 @@
           "color": "red",
           "type": "text",
           "align": "left",
-          "dx": 300,
+          "dx": 250,
           "dy":-15,
           "text": "Covid-19"
         }
