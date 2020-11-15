@@ -139,7 +139,7 @@
           "type": "text",
           "align": "left",
           "dx": 10,
-          "dy":20,
+          "dy":30,
           "text": "Grippe"
         }
       },
