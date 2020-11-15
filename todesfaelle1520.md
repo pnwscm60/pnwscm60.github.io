@@ -22,7 +22,7 @@
    var vlSpec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Visualization of deaths in Switzerland, combined data from bfs",
-  "width": 700, "height": 400,
+  "width": 700, "height": 360,
   "layer": [{
   "data": {
     "url": "https://pnwscm60.github.io/data/wodeathch1019.csv"
