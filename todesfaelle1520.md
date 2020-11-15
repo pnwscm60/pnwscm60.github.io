@@ -182,7 +182,7 @@
           "type": "text",
           "align": "left",
           "dx": -194,
-          "dy":130,
+          "dy":120,
           "text": "Altersgruppe 0–64 Jahre"
         }
       }
