@@ -68,7 +68,7 @@
         "y": {
           "aggregate": "average",
           "field": "obeGrenze",
-          "scale": {"domain": [0, 1700]},
+          "scale": {"domain": [0, 1900]},
           "type": "quantitative"
         },
         "y2": {
