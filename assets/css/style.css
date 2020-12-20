@@ -55,7 +55,8 @@ h4 {
 	float:left;
 	margin:0 1em 0.5em 0;
 }
-#forkme_banner {display:none!important;}
+#forkme_banner {display: none!important;}
+#header_wrap {display: none!important;}
 .ntext {
 	margin-bottom:0.4em;}
 .twocol {column-count: 2; column-gap:1em;}
