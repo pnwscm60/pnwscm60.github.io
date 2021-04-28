@@ -59,7 +59,7 @@
           "align": "left",
           "dx": -194,
           "dy":80,
-          "text": "Visualisierung: MvRiederberg <a href="">Impfstatus</a>"
+          "text": "Visualisierung: MvRiederberg "
         }
       }
   ]
