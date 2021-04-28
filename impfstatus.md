@@ -24,7 +24,7 @@
   "data": {
     "url": "https://pnwscm60.github.io/data/impfstatus.json"
   },
-  "width": 500, "height": 250,
+  "width": 500, "height": 50,
   "resolve": {"scale": {"color": "independent"}},
   "layer": [
      {"mark": "bar",
