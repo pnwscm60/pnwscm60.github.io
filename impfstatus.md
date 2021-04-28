@@ -22,7 +22,7 @@
    var vlSpec = {
   
   "data": {
-    "url": "https://pnwscm60.github.io/data/impfstatus.csv"
+    "url": "https://pnwscm60.github.io/data/impfstatus.json"
   },
   "width": 500, "height": 250,
   "resolve": {"scale": {"color": "independent"}},
