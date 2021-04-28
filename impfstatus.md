@@ -38,7 +38,7 @@
         "x": {"aggregate": "sum", "field": "Prozent", "type": "quantitative", "stack": "zero"},
         "y": {"field": "Impfstatus", "type": "nominal"},
         "color": {"field": "Status", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
-        "text": {"aggregate": "sum", "field": "Prozent", "type": "quantitative", "format": ".1f"}}
+        "text": { "field": "Prozent", "type": "quantitative", "format": ".1f"}}
     }
   ]
 }
