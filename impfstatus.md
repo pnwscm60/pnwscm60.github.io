@@ -20,7 +20,6 @@
 <script>
    // Assign the specification to a local variable vlSpec.
    var vlSpec = {
-  
   "data": {
     "url": "https://pnwscm60.github.io/data/impfstatus.json"
   },
@@ -33,13 +32,16 @@
       "encoding": {
         "x": {"field": "Prozent", "type": "quantitative", "stack": "zero"},
         "y": {"field": "Impfstatus", "type": "nominal"},
-        "color": {"field": "Status"}
+        "color": {"field": "Status",
+          "type": "nominal",
+          "scale": {"range": ["green","orange","red"]}}}
      },
-     {"mark": {"type": "text", "dx": -15, "dy": 5},
+     {"mark": {"type": "text", "dx": -20, "dy": 0, "fontSize":15},
       "encoding": {
         "x": {"field": "Prozent", "type": "quantitative", "stack": "zero"},
         "y": {"field": "Impfstatus", "type": "nominal"},
-        "color": {"Status": "site"},
+        
+        "color": {"field": "Status", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
         "text": { "field": "Prozent", "type": "quantitative", "format": ".1f"}}
     },
     {
