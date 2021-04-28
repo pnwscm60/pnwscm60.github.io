@@ -48,7 +48,7 @@
           "type": "text",
           "align": "left",
           "dx": -194,
-          "dy":-30,
+          "dy":-50,
           "text": "Visualisierung der Durchimpfung der schweizer Bevölkerung mit Covid-Vakzin"
         }
       },
@@ -59,7 +59,7 @@
           "align": "left",
           "dx": -194,
           "dy":80,
-          "text": "Visualisierung: MvRiederberg"
+          "text": "Visualisierung: MvRiederberg <a href="">Impfstatus</a>"
         }
       }
   ]
