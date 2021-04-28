@@ -47,7 +47,7 @@
           "color": "#666",
           "type": "text",
           "align": "left",
-          "dx": -194,
+          "dx": -230,
           "dy":-60,
           "fontSize": 14,
           "fontWeight": 700,
@@ -59,7 +59,7 @@
           "color": "#666",
           "type": "text",
           "align": "left",
-          "dx": -194,
+          "dx": -230,
           "dy":80,
           "text": "Visualisierung: MvRiederberg "
         }
