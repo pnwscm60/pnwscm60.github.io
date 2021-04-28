@@ -70,5 +70,4 @@
 vegaEmbed('#vis', vlSpec);
  // color old #85C5A6
 </script>
-<div style="margin-top:1em;">Visualisierung: MvRiederberg<br/>
-  <a href="https://nocovidnow.ch/impfstatus" style="color:red;font-weight:300;">Covid-Impfstatus Schweiz</a></div>
+<div style="margin-top:1em;"><a href="https://nocovidnow.ch/impfstatus.html" style="color:red;font-weight:300;">Covid-Impfstatus Schweiz</a></div>
