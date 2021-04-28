@@ -11,7 +11,7 @@
  @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700");
 </style>
   </head>
-  <body>
+  <body style="background-color:#fff;">
     
     <!-- Container for the visualization -->
     <div>Visualisierung der Durchimpfung der schweizer Bevölkerung mit einem Covid-Vakzin.<br/>Datenquelle: Bundesamt für Gesundheit, Stand 26.4.2021</div> 
