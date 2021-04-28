@@ -35,7 +35,7 @@
      },
      {"mark": {"type": "text", "dx": -15, "dy": 3},
       "encoding": {
-        "x": {"aggregate": "sum", "field": "Prozent", "type": "quantitative", "stack": "zero"},
+        "x": {"field": "Prozent", "type": "quantitative", "stack": "zero"},
         "y": {"field": "Impfstatus", "type": "nominal"},
         "color": {"field": "Status", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
         "text": { "field": "Prozent", "type": "quantitative", "format": ".1f"}}
