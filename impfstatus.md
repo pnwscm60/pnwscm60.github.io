@@ -26,7 +26,7 @@
   },
   "width": 400, 
   "height": 50,
-  "padding": {"left": 5, "top": 10, "right": 5, "bottom": 5},
+  "padding": {"left": 5, "top": 20, "right": 5, "bottom": 5},
   "resolve": {"scale": {"color": "independent"}},
   "layer": [
      {"mark": "bar",
@@ -48,7 +48,7 @@
           "type": "text",
           "align": "left",
           "dx": -194,
-          "dy":-10,
+          "dy":-30,
           "text": "Visualisierung der Durchimpfung der schweizer Bevölkerung mit Covid-Vakzin"
         }
       },
