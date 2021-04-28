@@ -46,7 +46,7 @@
           "type": "text",
           "align": "left",
           "dx": -194,
-          "dy":10,
+          "dy":-10,
           "text": "Visualisierung der Durchimpfung der schweizer Bevölkerung mit Covid-Vakzin"
         }
       },
@@ -56,7 +56,7 @@
           "type": "text",
           "align": "left",
           "dx": -194,
-          "dy":70,
+          "dy":80,
           "text": "Visualisierung: MvRiederberg"
         }
       }
