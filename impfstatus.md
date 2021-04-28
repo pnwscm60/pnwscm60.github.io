@@ -29,16 +29,16 @@
   "layer": [
      {"mark": "bar",
       "encoding": {
-        "x": {"aggregate": "sum", "field": "yield", "type": "quantitative", "stack": "zero"},
+        "x": {"aggregate": "sum", "field": "Prozent", "type": "quantitative", "stack": "zero"},
         "y": {"field": "variety", "type": "nominal"},
-        "color": {"field": "site", "type": "nominal"}}
+        "color": {"field": "Status", "type": "nominal"}}
      },
      {"mark": {"type": "text", "dx": -15, "dy": 3},
       "encoding": {
-        "x": {"aggregate": "sum", "field": "yield", "type": "quantitative", "stack": "zero"},
+        "x": {"aggregate": "sum", "field": "Prozent", "type": "quantitative", "stack": "zero"},
         "y": {"field": "variety", "type": "nominal"},
-        "color": {"field": "site", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
-        "text": {"aggregate": "sum", "field": "yield", "type": "quantitative", "format": ".1f"}}
+        "color": {"field": "Status", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
+        "text": {"aggregate": "sum", "field": "Prozent", "type": "quantitative", "format": ".1f"}}
     }
   ]
 }
