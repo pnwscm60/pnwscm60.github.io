@@ -49,7 +49,7 @@
           "align": "left",
           "dx": -194,
           "dy":-60,
-          "fontSize": 16,
+          "fontSize": 14,
           "fontWeight": 700,
           "text": "Visualisierung der Durchimpfung der schweizer Bevölkerung mit Covid-Vakzin"
         }
