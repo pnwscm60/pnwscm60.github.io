@@ -29,7 +29,7 @@
   "layer": [
      {"mark": "bar",
       "encoding": {
-        "x": {"aggregate": "sum", "field": "Prozent", "type": "quantitative", "stack": "zero"},
+        "x": {"field": "Prozent", "type": "quantitative", "stack": "zero"},
         "y": {"field": "Impfstatus", "type": "nominal"},
         "color": {"field": "Status", "type": "nominal"}}
      },
