@@ -46,8 +46,18 @@
           "type": "text",
           "align": "left",
           "dx": -194,
-          "dy":200,
+          "dy":10,
           "text": "Visualisierung der Durchimpfung der schweizer Bevölkerung mit Covid-Vakzin"
+        }
+      },
+    {
+        "mark": {
+          "color": "#666",
+          "type": "text",
+          "align": "left",
+          "dx": -194,
+          "dy":70,
+          "text": "Visualisierung: MvRiederberg"
         }
       }
   ]
