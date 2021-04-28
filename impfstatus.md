@@ -24,7 +24,7 @@
   "data": {
     "url": "https://pnwscm60.github.io/data/impfstatus.json"
   },
-  "width": 500, "height": 50,
+  "width": 400, "height": 50,
   "resolve": {"scale": {"color": "independent"}},
   "layer": [
      {"mark": "bar",
@@ -46,5 +46,5 @@
 vegaEmbed('#vis', vlSpec);
  // color old #85C5A6
 </script>
-<div>Visualisierung: MvRiederberg<br/>
-  <a href="https://nocovidnow.ch/impfstatus">Covid-Impfstatus Schweiz</a></div>
+<div style="margin-top:1em;">Visualisierung: MvRiederberg<br/>
+  <a href="https://nocovidnow.ch/impfstatus" style="color:red;font-weight:300;">Covid-Impfstatus Schweiz</a></div>
