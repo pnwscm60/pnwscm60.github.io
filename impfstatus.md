@@ -33,7 +33,7 @@
       "encoding": {
         "x": {"field": "Prozent", "type": "quantitative", "stack": "zero"},
         "y": {"field": "Impfstatus", "type": "nominal"},
-        "color": {"field": "Status", "type": "nominal"}}
+        "color": {"field": "Status", "scale": {"range": ["#009933", "#ff9933", "#ff0000"]}}
      },
      {"mark": {"type": "text", "dx": -15, "dy": 5},
       "encoding": {
