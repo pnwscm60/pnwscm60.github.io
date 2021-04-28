@@ -25,6 +25,7 @@
     "url": "https://pnwscm60.github.io/data/impfstatus.json"
   },
   "width": 400, "height": 50,
+  "padding: {"left": 5, "top": 40, "right": 5, "bottom": 40}
   "resolve": {"scale": {"color": "independent"}},
   "layer": [
      {"mark": "bar",
@@ -33,13 +34,23 @@
         "y": {"field": "Impfstatus", "type": "nominal"},
         "color": {"field": "Status", "type": "nominal"}}
      },
-     {"mark": {"type": "text", "dx": -15, "dy": 3},
+     {"mark": {"type": "text", "dx": -15, "dy": 5},
       "encoding": {
         "x": {"field": "Prozent", "type": "quantitative", "stack": "zero"},
         "y": {"field": "Impfstatus", "type": "nominal"},
         "color": {"field": "Status", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
         "text": { "field": "Prozent", "type": "quantitative", "format": ".1f"}}
-    }
+    },
+    {
+        "mark": {
+          "color": "#666",
+          "type": "text",
+          "align": "left",
+          "dx": -194,
+          "dy":200,
+          "text": "Visualisierung der Durchimpfung der schweizer Bevölkerung mit Covid-Vakzin"
+        }
+      }
   ]
 }
 // Embed the visualization in the container with id `vis`
