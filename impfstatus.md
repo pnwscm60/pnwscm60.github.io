@@ -14,7 +14,7 @@
   <body style="background-color:#fff;">
     
     <!-- Container for the visualization -->
-    <div>Visualisierung der Durchimpfung der schweizer Bevölkerung mit einem Covid-Vakzin.<br/>Datenquelle: Bundesamt für Gesundheit, Stand 26.4.2021</div> 
+    <div>Visualisierung der Durchimpfung der schweizer Bevölkerung mit einem Covid-Vakzin.<br/>Datenquelle: Bundesamt für Gesundheit, Stand 30.4.2021</div> 
 <div id="vis" style="padding:1em;margin-top:1em;border-radius:5px;background-color:#fff;box-shadow:1px 1px 3px #666;"></div>
 
 <script>
