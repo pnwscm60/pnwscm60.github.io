@@ -1,3 +1,3 @@
-[{"Pourcentage":11.0,"Vaccination":"CH","year":2021,"Status":"doppelt geimpft"},
- {"Pourcentage":10.4,"Vaccination":"CH","year":2021,"Status":"einfach geimpft"},
-{"Pourcentage":78.6,"Vaccination":"CH","year":2021,"Status":"ungeimpft"}]
+[{"Pourcentage":11.0,"Vaccination":"CH","year":2021,"Status":"vacciné 2x"},
+ {"Pourcentage":10.4,"Vaccination":"CH","year":2021,"Status":"vacciné 1x"},
+{"Pourcentage":78.6,"Vaccination":"CH","year":2021,"Status":"sans vaccination"}]
