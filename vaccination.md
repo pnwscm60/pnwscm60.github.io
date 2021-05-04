@@ -14,7 +14,7 @@
   <body style="background-color:#fff;">
     
     <!-- Container for the visualization -->
-    <div>Visualisierung der Durchimpfung der schweizer Bevölkerung mit einem Covid-Vakzin.<br/>Datenquelle: Bundesamt für Gesundheit, Stand 30.4.2021</div> 
+    <div>Visualisation de la vaccination en Suisse contre la Covid-19.<br/>Data: Office de la Santé du 30.4.2021</div> 
 <div id="vis" style="padding:1em;margin-top:1em;border-radius:5px;background-color:#fff;box-shadow:1px 1px 3px #666;"></div>
 
 <script>
@@ -30,18 +30,18 @@
   "layer": [
      {"mark": "bar",
       "encoding": {
-        "x": {"field": "Prozent", "type": "quantitative", "stack": "zero"},
-        "y": {"field": "Impfstatus", "type": "nominal"},
+        "x": {"field": "Pourcentage", "type": "quantitative", "stack": "zero"},
+        "y": {"field": "Vaccination", "type": "nominal"},
         "color": {"field": "Status",
           "type": "nominal",
           "scale": {"range": ["green","orange","red"]}}}
      },
      {"mark": {"type": "text", "dx": -20, "dy": 0, "fontSize":15},
       "encoding": {
-        "x": {"field": "Prozent", "type": "quantitative", "stack": "zero"},
-        "y": {"field": "Impfstatus", "type": "nominal"},
+        "x": {"field": "Pourcentage", "type": "quantitative", "stack": "zero"},
+        "y": {"field": "Vaccination", "type": "nominal"},
         "color": {"field": "Status", "type": "nominal", "scale": {"range": ["white"]}, "legend": null},
-        "text": { "field": "Prozent", "type": "quantitative", "format": ".1f"}}
+        "text": { "field": "Pourcentage", "type": "quantitative", "format": ".1f"}}
     },
     {
         "mark": {
